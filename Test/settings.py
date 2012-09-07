@@ -20,7 +20,7 @@ DATABASES = {
     }
 }
 DB_FILES = {
-    'table': 'file',
+    'table': 'filetest_filedb',
     'base_url': 'http://localhost/dbfiles/'
 }
 # Local time zone for this installation. Choices can be found here:
