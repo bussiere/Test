@@ -1,0 +1,223 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "# Django settings for Test project.\n\nDEBUG = True\nTEMPLATE_DEBUG = DEBUG\n\nADMINS = (\n    # ('Your Name', 'your_email@example.com'),\n)\n\nMANAGERS = ADMINS\n\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.\n        'NAME': 'test',                      # Or path to database file if using sqlite3.\n        'USER': 'toto',                      # Not used with sqlite3.\n        'PASSWORD': 'titi',                  # Not used with sqlite3.\n        'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.\n        'PORT': '',                      # Set to empty string for default. Not used with sqlite3.\n    }\n}\n\n# Local time zone for this installation. Choices can be found here:\n# http://en.wikipedia.org/wiki/List_of_tz_zones_by_name\n# although not all choices may be available on all operating systems.\n# On Unix systems, a value of None will cause Django to use the same\n# timezone as the operating system.\n# If running in a Windows environment this must be set to the same as your\n# system time zone.\nTIME_ZONE = 'America/Chicago'\n\n# Language code for this installation. All choices can be found here:\n# http://www.i18nguy.com/unicode/language-identifiers.html\nLANGUAGE_CODE = 'en-us'\n\nSITE_ID = 1\n\n# If you set this to False, Django will make some optimizations so as not\n# to load the internationalization machinery.\nUSE_I18N = True\n\n# If you set this to False, Django will not format dates, numbers and\n# calendars according to the current locale\nUSE_L10N = True\n\n# Absolute filesystem path to the directory that will hold user-uploaded files.\n# Example: \"/home/media/media.lawrence.com/media/\"\nMEDIA_ROOT = ''\n\n# URL that handles the media served from MEDIA_ROOT. Make sure to use a\n# trailing slash.\n# Examples: \"http://media.lawrence.com/media/\", \"http://example.com/media/\"\nMEDIA_URL = ''\n\n# Absolute path to the directory static files should be collected to.\n# Don't put anything in this directory yourself; store your static files\n# in apps' \"static/\" subdirectories and in STATICFILES_DIRS.\n# Example: \"/home/media/media.lawrence.com/static/\"\nSTATIC_ROOT = ''\n\n# URL prefix for static files.\n# Example: \"http://media.lawrence.com/static/\"\nSTATIC_URL = '/static/'\n\n# URL prefix for admin static files -- CSS, JavaScript and images.\n# Make sure to use a trailing slash.\n# Examples: \"http://foo.com/static/admin/\", \"/static/admin/\".\nADMIN_MEDIA_PREFIX = '/static/admin/'\n\n# Additional locations of static files\nSTATICFILES_DIRS = (\n    # Put strings here, like \"/home/html/static\" or \"C:/www/django/static\".\n    # Always use forward slashes, even on Windows.\n    # Don't forget to use absolute paths, not relative paths.\n)\n\n# List of finder classes that know how to find static files in\n# various locations.\nSTATICFILES_FINDERS = (\n    'django.contrib.staticfiles.finders.FileSystemFinder',\n    'django.contrib.staticfiles.finders.AppDirectoriesFinder',\n    'django.contrib.staticfiles.finders.DefaultStorageFinder',\n)\n\n# Make this unique, and don't share it with anybody.\nSECRET_KEY = ''\n\n# List of callables that know how to import templates from various sources.\nTEMPLATE_LOADERS = (\n    'django.template.loaders.filesystem.Loader',\n    'django.template.loaders.app_directories.Loader',\n    'django.template.loaders.eggs.Loader',\n)\n\nMIDDLEWARE_CLASSES = (\n    'django.middleware.common.CommonMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n)\n\nROOT_URLCONF = 'Test.urls'\n\nTEMPLATE_DIRS = (\n    # Put strings here, like \"/home/html/django_templates\" or \"C:/www/django/templates\".\n    # Always use forward slashes, even on Windows.\n    # Don't forget to use absolute paths, not relative paths.\n)\n\nINSTALLED_APPS = (\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.sites',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # Uncomment the next line to enable the admin:\n    'django.contrib.admin',\n    # Uncomment the next line to enable admin documentation:\n    'django.contrib.admindocs',\n)\n\n# A sample logging configuration. The only tangible logging\n# performed by this configuration is to send an email to\n# the site admins on every HTTP 500 error.\n# See http://docs.djangoproject.com/en/dev/topics/logging for\n# more details on how to customize your logging configuration.\nLOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,\n    'handlers': {\n        'mail_admins': {\n            'level': 'ERROR',\n            'class': 'django.utils.log.AdminEmailHandler'\n        }\n    },\n    'loggers': {\n        'django.request': {\n            'handlers': ['mail_admins'],\n            'level': 'ERROR',\n            'propagate': True,\n        },\n    }\n}\n",
+			"file": "settings.py",
+			"file_size": 4977,
+			"file_write_time": 1346906665000000,
+			"settings":
+			{
+				"buffer_size": 5001,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/bussiere/workspace/Sumomo/script/saveemail.py",
+		"/home/bussiere/workspace/Jackpoint/jackpoint/hand/scripts.py",
+		"/home/bussiere/workspace/Sumomo/emails/views.py",
+		"/home/bussiere/workspace/Sumomo/tags/admin.py",
+		"/home/bussiere/workspace/Sumomo/emails/admin.py",
+		"/home/bussiere/workspace/Sumomo/emails/models.py",
+		"/home/bussiere/workspace/Sumomo/attachments/models.py",
+		"/home/bussiere/workspace/Sumomo/attachments/admin.py",
+		"/home/bussiere/workspace/Sumomo/templates/index.html",
+		"/home/bussiere/workspace/Sumomo/urls.py",
+		"/home/bussiere/saveemail/saveemailpa.py",
+		"/home/bussiere/workspace/JackpointFinal/jackpoint/engine/views.py",
+		"/home/bussiere/workspace/JackpointFinal/jackpoint/urls.py",
+		"/home/bussiere/workspace/Sumomo/tags/models.py",
+		"/home/bussiere/workspace/JackpointFinal/jackpoint/hand/models.py",
+		"/home/bussiere/workspace/JackpointFinal/jackpoint/date/admin.py",
+		"/home/bussiere/workspace/dodgetactic/README.md",
+		"/home/bussiere/workspace/dodgetactic/Gameplay.txt",
+		"/home/bussiere/saveemail/testcouchdb.py",
+		"/home/bussiere/test.py",
+		"/home/bussiere/Downloads/WolframAlpha--my_facebook__Friend_network__2012_08_30_1946.svg",
+		"/tmp/sendgmail.py",
+		"/tmp/test.py",
+		"/home/bussiere/saveemail/1320.txt",
+		"/home/bussiere/saveemail/166.txt",
+		"/home/bussiere/saveemail/darcs-initp.py__3073_0__cs-initp.py",
+		"/home/bussiere/.i3/config",
+		"/home/bussiere/saveemail/map.js",
+		"/home/bussiere/test.html",
+		"/home/bussiere/cvh.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/bussiere/workspace/Satsuki"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"models.TextField()",
+			"\"File\"",
+			"‘",
+			"’",
+			"pseudo",
+			"nationn",
+			"Note.Avis",
+			"link.Link",
+			"Todo",
+			"note.Note",
+			"'%\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"models.TextField(blank=True, null=True)",
+			"\"file.File\"",
+			"'",
+			"note.Avis",
+			"link.Lien",
+			"note.Avis"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "settings.py",
+					"settings":
+					{
+						"buffer_size": 5001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4302,
+								4302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 368.0,
+	"status_bar_visible": true
+}
