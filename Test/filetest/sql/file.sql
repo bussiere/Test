@@ -1,5 +1,11 @@
+create or replace function update_the_db() returns void as
+$$
+begin
 
-
+    if not exists(select * from information_schema.tables 
+        where 
+            table_catalog = CURRENT_CATALOG and table_schema = CURRENT_SCHEMA
+            and table_name = 'file') then
 CREATE TABLE file
 (
   filename character varying(256) NOT NULL,
@@ -11,6 +17,12 @@ WITH (
   OIDS=FALSE
 );
 
-ALTER TABLE file
-  OWNER TO toto;
+    end if;
+
+end;
+$$
+language 'plpgsql';
+
+select update_the_db();
+drop function update_the_db();
 
